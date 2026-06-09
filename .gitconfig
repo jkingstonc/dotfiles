@@ -1,0 +1,9 @@
+[user]
+	email = j.kingston.c@gmail.com
+	name = James Clarke
+[delta]
+	navigate = true
+	dark = true
+	side-by-side = true
+[merge]
+		conflictstyle = zdiff3
