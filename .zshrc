@@ -93,6 +93,9 @@ ZSH_THEME="spaceship"
 
 plugins=(
     git
+    # to install: `git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use`
+    # this basically tells you if a command alias is available, super useful
+    you-should-use
     # to install: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
     zsh-autosuggestions
     # to install: `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
@@ -159,3 +162,4 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
 ZSH_AUTOSUGGEST_USE_ASYNC=1
 
+echo "🐈 new shell session... enjoy! 🐈"
